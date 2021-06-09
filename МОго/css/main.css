@@ -22,6 +22,8 @@ h1, h2, h3 {
     src: url(../шрифты/kaushan-script_[allfont.ru].ttf);
 }
 
+
+
 .section-h2 {
     padding-top: 90px;
     padding-bottom: 20px;
@@ -61,6 +63,8 @@ h1, h2, h3 {
 
 .main-header {
     background-image: url(../img/Layer\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1000px;
 }
 
@@ -361,4 +365,183 @@ p.two {
     font-size: 14px;
     text-align: center;
 }
+
+/*----------------Amazing-services---------------*/
+
+.row_of_themes {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.theme {
+    flex-basis: 33%;
+    padding-top: 45px;
+    display: flex;
+}
+
+.logotip {
+    width: 90px;
+    height: 100%;
+    background-image: url(../img/ALARM.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    flex-shrink: 0;
+    
+}
+
+.paragraph {
+    padding-right: 35px;
+}
+
+.poloska {
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+}
+
+.paragraph h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+
+.paragraph p {
+    font-size: 15px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.row_of_themes2 {
+    padding-bottom: 120px;
+}
+
+/*-----------------UNIQUE DESIGN--------------------*/
+
+.devices {
+    background-image: url(../img/Layer\ 45.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 852px;
+    position: relative;
+}
+
+.devices::before {
+    content: "";
+    display: block;
+    width: 570px;
+    height: 620px;
+    background-image: url(../img/display\ bg\ 768x1024.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateX(-27px);
+}
+
+.devices::after {
+    content: "";
+    display: block;
+    width: 274px;
+    height: 476px;
+    background-image: url(../img/White.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(90px);
+    left: 55%;
+}
+
+/*----------accordion-------------------*/
+
+.grey {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    padding: 0 120px;
+    padding-bottom: 90px;
+}
+
+.accord_inner {
+    display: flex;
+    height: 380px;
+    margin-bottom: 120px;
+}
+
+.accord_pict {
+    height: 100%;
+    background-image: url(../img/Layer\ man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+.accord {
+    height: 380px;
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+.accord_item {
+    margin-bottom: 10px;
+}
+
+.accord_icon {
+    height: 32px;
+    width: 32px;
+    background-image: url(../img/PICTURE.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 15px;
+    align-self: center;
+}
+
+.accord_radio {
+    display: none;
+}
+
+.label_wrapper {
+    display: flex;
+    border: 1px solid #e5e5e5;
+    height: 60px;
+    align-items: center;
+}
+
+.accord_text_wrapper  {
+    border: 1px solid #e5e5e5;
+}
+
+.accord_label {
+    display: flex;
+    width: 100%;
+}
+
+.accord_label span {
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+
+
+
+.accord_text_wrapper {
+    display: none;
+    padding: 20px;
+}
+
+.text_label {
+    overflow-y: scroll;
+}
+
 
